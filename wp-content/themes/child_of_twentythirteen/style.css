@@ -14,25 +14,39 @@ Template: twentythirteen
 Dimensions: 880px X 660px
 */
 
-.site-header {
-	background: url("matrix.jpg")
+/*banner image */
+header {
+	background: url("space.jpg")
 }
-.panel-content {
-	background: #C0C0C0;
-	color: #C0C0C0;
+/*header title */
+ .site-title {
+ 	color: #dcd9cd; /*milky white */
+ 	font-family: Lato;
+ }
+/*just another day in dev tools */
+.site-description {
+	color: #dcd9cd; /* milky white */
+	font-family: Open Sans;
 }
 
+/* title */
+.entry-title {
+	background: #383838; /* dark grey */
+	color: #dcd9cd;
+} /* removed the background from the image from the header*/
+
+
 .entry-content {
-	font-family: Lato;
-	color: white;
-}
+	font-family: Open Sans;
+	color: #dcd9cd;
+} /* change the font to milky white and change font style */
 
 .siteheader {
 	font-family: Lato;
 }
 
 .site {
-	background-color: #383838;
+	background-color: #383838; /* dark grey */
 	color: white;
 	font-family Lato;
 }
