@@ -1,0 +1,28 @@
+/* blurb 
+Theme Name: Child of 2017
+Description: Child theme for devtools2;
+Template: twentyseventeen
+*/ 
+
+@import url('../twentyseventeen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/*font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*font-family: 'Open Sans', sans-serif;*/
+
+/* screenshot added screenshot.png
+Dimensions: 880px X 660px
+*/
+
+.panel-content {
+	background: #C0C0C0;
+	color: red;
+}
+
+.siteheader {
+	font-family: Lato;
+}
+
+.site {
+	background-color: red;
+}
