@@ -1,0 +1,38 @@
+/* blurb 
+Theme Name: Child of 2013
+Description: Child theme for devtools2;
+Template: twentythirteen
+*/ 
+
+@import url('../twentythirteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/*font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*font-family: 'Open Sans', sans-serif;*/
+
+/* screenshot added screenshot.png
+Dimensions: 880px X 660px
+*/
+
+.site-header {
+	background: url("matrix.jpg")
+}
+.panel-content {
+	background: #C0C0C0;
+	color: #C0C0C0;
+}
+
+.entry-content {
+	font-family: Lato;
+	color: white;
+}
+
+.siteheader {
+	font-family: Lato;
+}
+
+.site {
+	background-color: #383838;
+	color: white;
+	font-family Lato;
+}
