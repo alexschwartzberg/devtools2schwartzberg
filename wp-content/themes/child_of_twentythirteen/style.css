@@ -43,11 +43,13 @@ header {
 
 .entry-thumbnail {
 	background: #383838;
-}
+	display: none;
+} /*removed the picture and replaced it with the dark grey background */
 
 .entry-header {
 	background: #383838;
 } /* removed the awkward background */)
+
 .siteheader {
 	font-family: Lato;
 }
@@ -62,6 +64,19 @@ header {
 	background: #dcd9cd;  
 } /* change nav bar color */
 
-footer {
-	background: #00008B;
-}
+.sidebar {
+	background: #00000f;
+} /* change sidebar to dark navy blue */
+
+.site-footer {
+	background: #383838;
+	color: #dcd9cd;
+} /*make footer match rest of the site */
+
+.widget-area {
+	background: #00000f;
+} /* change widget area to dark navy blue */
+
+#secondary {
+	background: #00000f;
+} /* widget area and side bar still had red, this changed the sides of those to navy blue as well */
