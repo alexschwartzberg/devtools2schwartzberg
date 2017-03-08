@@ -41,6 +41,13 @@ header {
 	color: #dcd9cd;
 } /* change the font to milky white and change font style */
 
+.entry-thumbnail {
+	background: #383838;
+}
+
+.entry-header {
+	background: #383838;
+} /* removed the awkward background */)
 .siteheader {
 	font-family: Lato;
 }
@@ -49,4 +56,12 @@ header {
 	background-color: #383838; /* dark grey */
 	color: white;
 	font-family Lato;
+}
+
+.primary-menu {
+	background: #dcd9cd;  
+} /* change nav bar color */
+
+footer {
+	background: #00008B;
 }
